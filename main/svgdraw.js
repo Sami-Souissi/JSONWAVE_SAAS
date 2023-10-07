@@ -11,7 +11,7 @@
     return "undefined" != typeof window;
   }
   function m() {
-    return o || (l() && (o = window.gsap) && o.registerPlugin && o);
+    return o ;
   }
   function p(e) {
     return Math.round(1e4 * e) / 1e4;
