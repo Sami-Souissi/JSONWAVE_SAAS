@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  
+  <title>JSONWAVE - Terminal</title>
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<style>
+  #background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("https://cdn.zajno.com/dev/codepen/cicada/texture.png");
+  background-size: cover;
+  z-index: -1;
+}
+
+#background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.modern-title {
+  font-family: "Montserrat", sans-serif; /* Choose a modern and clean font-family */
+  font-weight: bold; /* Make the text bold for emphasis */
+  font-size: 36px; /* Adjust the font size as needed */
+  color: #ffffff; /* Set the text color to a modern shade (customize as desired) */
+  text-align: center; /* Center-align the text */
+  text-transform: uppercase; /* Convert text to uppercase for a modern look */
+  letter-spacing: 2px; /* Add letter spacing for readability and style */
+  margin: 20px 0; /* Add margin for spacing (customize as needed) */
+  /* Additional styles */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow (customize as desired) */
+  padding: 10px 20px; /* Add padding for a background color box (customize as needed) */
+  border-radius: 4px; /* Apply rounded corners to the title box (customize as desired) */
+}
+</style>
+<body>
+  <div id="background-container">
+    <video id="background-video" autoplay muted loop>
+        <source src="../assets/mylivewallpapers.com-On-Top-of-the-World-4K.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<!-- partial:index.partial.html -->
+<h1>
+  <img src="../assets/logo02.png" alt="logo" style="height: 50%;width: 50%;">
+</h1>
+<h1 class="modern-title">
+Terminal Demo
+</h1>
+
+<div class="window">
+  <div class="bar">
+    <div class="btn"></div>
+  </div>
+  <div class="body">
+  <div class="comment">
+  <iframe src="./dist/index.html" frameborder="0"  style="
+  position: -webkit-sticky;
+  width: 120ch;
+  border: none;
+  height: 100vh;
+  transform: translateX(-7%); /* Move the iframe 50% to the left */
+  z-index: 99;
+"></iframe>
+</div>
+</div>
+<footer>
+</footer>
+<!-- partial -->
+  
+</body>
+</html>
