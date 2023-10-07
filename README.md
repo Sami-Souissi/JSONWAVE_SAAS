@@ -15,14 +15,18 @@ Clone the JSONWave repository to your local machine:
 
    ```git clone https://github.com/sami-souissi/jsonwave_saas.git```
 ### Usage
+
 Sign in to JSONWave or create a new account.
 Upload your JSON files or create new ones.
 Use the intuitive interface to parse, analyze, and visualize your JSON data.
 Collaborate with your team in real time.
 Export your results or share them with others.
-Contributing
+
+###Contributing
+
 We welcome contributions from the community. If you'd like to contribute to JSONWave, please follow our Contribution Guidelines.
 
-License
+###License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
   
