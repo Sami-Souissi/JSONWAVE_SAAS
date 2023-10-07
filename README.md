@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo02.png" alt="Logo" width="200px">
+  <img src="https://github.com/Sami-Souissi/JSONWAVE_SAAS/assets/logo02.png" alt="Logo" width="200px">
 </div>
 
 # JSONWAVE SAAS
